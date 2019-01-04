@@ -1,0 +1,36 @@
+
+
+body {
+    background: #93628F;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#93628F, #4A2849) no-repeat center fixed;
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#93628F, #4A2849) no-repeat center fixed;
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#93628F, #4A2849) no-repeat center fixed;
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#93628F, #4A2849) no-repeat center fixed;
+    /* Standard syntax */
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #e2e2e2;
+    font-family: 'Righteous', cursive;
+}
+
+.game-title {
+    font-size: 35px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+#container {
+    margin-top: 10%;
+    display: inline-block;
+}
+
+canvas {
+    background: #cecece;
+    border: 2px solid #181818;
+    border-radius: 10px;
+}
